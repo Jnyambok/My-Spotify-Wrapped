@@ -1,0 +1,22 @@
+# Personal Spotify export: never commit
+*.zip
+data/
+Spotify Account Data/
+Spotify Extended Streaming History/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# dbt
+spotify_dbt/target/
+spotify_dbt/dbt_packages/
+spotify_dbt/logs/
+logs/
+
+# Local only
+notes/
+.vscode/
+.claude/
